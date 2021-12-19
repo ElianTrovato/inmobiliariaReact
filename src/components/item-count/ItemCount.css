@@ -1,8 +1,14 @@
 #producto{
-    border: 5px solid black;
-    width: 500px;
-    height: 250px;
-    padding: 50px;
-    margin-left: 350px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30PX;
+    margin-bottom: 50px;
+}
+#prod{
+    display: none;
+}
+.count{
+    text-align: center;
+    border: 2px solid black;
 }

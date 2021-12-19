@@ -15,7 +15,7 @@ function ItemCount() {
 
     return (
         <main id="producto">
-            <b>Producto</b>
+            <b id="prod">Producto</b>
             <section className="Counters">
                 <div className="counter">
                     <p className="count">{count}</p>
